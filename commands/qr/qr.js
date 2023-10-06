@@ -33,5 +33,6 @@ module.exports = {
       .setTimestamp()
 
     await interaction.channel.send({ embeds: [response] })
+		await interaction.reply('Done!');
 	},
 };
